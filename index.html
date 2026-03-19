@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> POLYSHOP </title>
+    <style>
+	
+        body {
+               font-family: sans-serif;
+               margin: 0;
+               padding: 0;
+               background-color:#F5F3FF;
+               color:#1F2937;    
+		       min-height: 100vh;    
+		       display: flex    ;
+               flex-direction: column;
+             }
+        header {
+                background-color:#DDD6FE;
+                color:#1F2937;
+                padding: 10 px;
+                text-align: center;
+			    border: 5px solid #E5E7EB;
+    			margin-bottom: 0px;
+	        	}
+	 	header h1 {
+		        margin-bottom: 0
+				  }
+		header p {
+		        margin-top: 0
+				 }
+        nav {
+                background-color:#C4B5FD;
+                padding: 5 px;
+    			display:flex;
+	    		border-bottom: 2px solid #E5E7EB;
+		    	width: 100%;
+				justify-content: center;
+				gap: 50px
+	        }
+        nav a {
+                color: #1F2937;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 20px;
+                margin: 0 10px;
+                display: inline-block;
+              }
+			  nav: hover {background-color: #5B21B6;
+						 color:#FFFFFF;
+						 }
+        video {
+  display: block;
+  margin: 20px auto;
+        }
+	    .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+	       }
+	    .Sản-phẩm-1, .Sản-phẩm-2, 
+	    .Sản-phẩm-4, .Sản-phẩm-5,
+	    .Sản-phẩm-6, .Sản-phẩm-7,
+	    .Sản-phẩm-8, .Sản-phẩm-3 {
+            background-color: #FFFFFF;
+            border: 1px solid #E5E7EB;
+            border-radius: 8px;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+		button {background-color: #7C3AED;
+				color: #FFFFFF;
+			   }
+	  button:hover {background-color: #5B21B6}
+        footer {
+                background-color:#DDD6FE;
+		    	color: #1F2937;
+    			text-align: center;
+	    		border-top : 5px solid #E5E7EB;
+                bottom: 0;
+	    	    }
+    </style>
+</head>
+
+<body>
+    <header>
+         <h1> POLYSHOP </h1>
+		 <p> Trang thương mại điện tử chính hãng </p>
+    </header>
+  
+    <nav>
+        <a href = "#"> Trang chủ </a>
+	    <a href = "#"> Danh mục </a>
+	    <a href = "#"> Sự kiện </a>
+    	<a href = "#"> Giỏ hàng </a>
+    </nav>
+
+		<video controls width="500">
+  <source src="QC.mp4" type="video/mp4">
+    </video>
+  
+<main style="flex: 1;">
+	<div class="container">
+  	    <div class="Sản-phẩm-1">
+   		    <img src="BBIA.jpg" alt="Son BBIA">
+    		<h3>DÒNG SON BBIA </h3>
+ 		    <p class="giá tiền"> 234.000đ </p>
+     		<button>Thêm vào giỏ</button>
+			<button>Mua ngay </button>
+   		</div>
+		
+  	    <div class="Sản-phẩm-2">
+ 	 	    <img src="MENOW.jpg" alt="Phấn phủ MENOW">
+    	 	<h3> Phấn phủ đa sắc Menow </h3>
+	     	<p class="giá tiền"> 275.000đ</p>
+ 	     	<button>Thêm vào giỏ</button>
+	 	 	<button>Mua ngay </button>
+    	</div>
+		
+ 	    <div class="Sản-phẩm-3">
+ 	     	<img src="LO.jpg" alt="Little ondine">
+ 	 	    <h3>Kem highlight/khối little ondine </h3>
+     	 	<p class="giá tiền"> 167.000đ</p>
+ 	 	    <button>Thêm vào giỏ</button>
+	 	 	<button>Mua ngay </button>
+ 	    </div>
+		
+  	    <div class="Sản-phẩm-4">
+            <img src="mooekiss.jpg" alt="Son mooekiss">
+            <h3>Son mooekiss </h3>
+            <p class="giá tiền"> 178.000đ</p>
+            <button>Thêm vào giỏ</button>
+	        <button>Mua ngay </button>
+        </div>
+		
+        <div class="Sản-phẩm-5">
+            <img src="hoodie.jpg" alt="Áo hoodie nam">
+            <h3>Áo hoodie nam </h3>
+            <p class="giá tiền"> 210.000đ</p>
+            <button>Thêm vào giỏ</button>
+	        <button>Mua ngay </button>
+        </div>
+		
+        <div class="Sản-phẩm-6">
+            <img src="khan.jpg" alt="Khăn quàng cổ">
+            <h3>Khăn quàng cổ </h3>
+            <p class="giá tiền"> 154.000đ</p>
+            <button>Thêm vào giỏ</button>
+	        <button>Mua ngay </button>
+        </div>
+		
+        <div class="Sản-phẩm-7">
+            <img src="len.jpg" alt="Len đan DIY">
+            <h3>Len đan DIY </h3>
+            <p class="giá tiền"> 65.000đ</p>
+            <button>Thêm vào giỏ</button>
+	        <button>Mua ngay </button>
+        </div>
+ 
+        <div class="Sản-phẩm-8">
+            <img src="capypara.jpg" alt="Gấu bông capypara">
+            <h3>Gấu bông capypara </h3>
+            <p class="giá tiền"> 50.000đ</p>
+            <button>Thêm vào giỏ</button>
+	        <button>Mua ngay </button>
+        </div>
+   </div>
+</main>
+
+    <footer>
+        <p>© 2008 Trang web Thương mại điện tử chính hãng.</p>
+        <p>Liên hệ: poly@2008.vn | Theo dõi chúng tôi tại Facebook</p>
+    </footer>
+  
+</body>
+</html>
